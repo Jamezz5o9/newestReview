@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2a2d476-9c3f-413d-834a-971faf4fb7f7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/revisitOld.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/polling/Polling.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sales/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sales/SalesPerson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/sales/SalesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/turtle/TurtleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArcheryGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/archery/ArcheryBoard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/archery/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/archery/ArcheryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,16 +40,25 @@
     &quot;Repository.Attach.Sources&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="archery" />
       <recent name="sales" />
       <recent name="credit" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Polling">
+  <component name="RunManager" selected="Application.ArcheryGame">
+    <configuration name="ArcheryGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArcheryGame" />
+      <module name="revisitOld" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Polling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="polling.Polling" />
       <module name="revisitOld" />
@@ -69,17 +72,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SalesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ArcheryTest.playerCanPlayerGame" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="revisitOld" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sales.*" />
+          <option name="PATTERN" value="archery.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="sales" />
-      <option name="MAIN_CLASS_NAME" value="sales.SalesTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="archery" />
+      <option name="MAIN_CLASS_NAME" value="archery.ArcheryTest" />
+      <option name="METHOD_NAME" value="playerCanPlayerGame" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArcheryTest.thatPlayerClassExist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="revisitOld" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="archery.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="archery" />
+      <option name="MAIN_CLASS_NAME" value="archery.ArcheryTest" />
+      <option name="METHOD_NAME" value="thatPlayerClassExist" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -100,45 +120,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SalesTest.checkTheLengthOfItemSold" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="revisitOld" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sales.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="sales" />
-      <option name="MAIN_CLASS_NAME" value="sales.SalesTest" />
-      <option name="METHOD_NAME" value="checkTheLengthOfItemSold" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SalesTest.lengthOfAddedItemIsRight" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="revisitOld" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sales.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="sales" />
-      <option name="MAIN_CLASS_NAME" value="sales.SalesTest" />
-      <option name="METHOD_NAME" value="lengthOfAddedItemIsRight" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArcheryGame" />
+        <item itemvalue="JUnit.ArcheryTest.playerCanPlayerGame" />
+        <item itemvalue="JUnit.ArcheryTest.thatPlayerClassExist" />
         <item itemvalue="Application.Polling" />
         <item itemvalue="JUnit.SalesTest.calculateEarnings" />
-        <item itemvalue="JUnit.SalesTest" />
-        <item itemvalue="JUnit.SalesTest.checkTheLengthOfItemSold" />
-        <item itemvalue="JUnit.SalesTest.lengthOfAddedItemIsRight" />
       </list>
     </recent_temporary>
   </component>
@@ -157,7 +145,11 @@
       <workItem from="1665863617213" duration="403000" />
       <workItem from="1665864998067" duration="595000" />
       <workItem from="1665925995770" duration="474000" />
-      <workItem from="1665949541548" duration="8594000" />
+      <workItem from="1665949541548" duration="9844000" />
+      <workItem from="1666022736944" duration="608000" />
+      <workItem from="1666064476347" duration="9043000" />
+      <workItem from="1666085053693" duration="592000" />
+      <workItem from="1666099429648" duration="371000" />
     </task>
     <servers />
   </component>
