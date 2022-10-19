@@ -3,7 +3,6 @@ package archery;
 import java.security.SecureRandom;
 
 public class Player {
-    private int[][] displayResult;
     private String name;
     private int age;
     private int result;
@@ -14,8 +13,15 @@ public class Player {
         this.age = age;
     }
 
-    public void playArchery() {
-       result =  random.nextInt(10);
+    public void playArchery(ArcheryBoard archeryBoard) {
+        int[][] display = archeryBoard.getDisplayBoard();
+        for(int i = 0; i < 3; i++){
+            for(int j = 0; j < 3; j++){
+                result =  random.nextInt(11);
+                display[i][j] = result;
+            }
+        }
+
     }
 
     public String getName() {

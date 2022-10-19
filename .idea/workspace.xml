@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2a2d476-9c3f-413d-834a-971faf4fb7f7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ArcheryGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/archery/ArcheryBoard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/archery/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/archery/ArcheryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/archery/ArcheryBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/archery/ArcheryBoard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/archery/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/archery/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/archery/ArcheryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/archery/ArcheryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,23 +50,10 @@
       <recent name="credit" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ArcheryGame">
+  <component name="RunManager" selected="JUnit.ArcheryTest.playerPlayGameThreeTimes">
     <configuration name="ArcheryGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArcheryGame" />
       <module name="revisitOld" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Polling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="polling.Polling" />
-      <module name="revisitOld" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="polling.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -83,6 +69,38 @@
       <option name="PACKAGE_NAME" value="archery" />
       <option name="MAIN_CLASS_NAME" value="archery.ArcheryTest" />
       <option name="METHOD_NAME" value="playerCanPlayerGame" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArcheryTest.playerPlayGameThreeTimes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="revisitOld" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="archery.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="archery" />
+      <option name="MAIN_CLASS_NAME" value="archery.ArcheryTest" />
+      <option name="METHOD_NAME" value="playerPlayGameThreeTimes" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArcheryTest.pointIsGeneratedWhenPlayerPlaysGame" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="revisitOld" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="archery.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="archery" />
+      <option name="MAIN_CLASS_NAME" value="archery.ArcheryTest" />
+      <option name="METHOD_NAME" value="pointIsGeneratedWhenPlayerPlaysGame" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -104,29 +122,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SalesTest.calculateEarnings" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="revisitOld" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sales.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="sales" />
-      <option name="MAIN_CLASS_NAME" value="sales.SalesTest" />
-      <option name="METHOD_NAME" value="calculateEarnings" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ArcheryTest.playerPlayGameThreeTimes" />
+        <item itemvalue="JUnit.ArcheryTest.pointIsGeneratedWhenPlayerPlaysGame" />
         <item itemvalue="Application.ArcheryGame" />
         <item itemvalue="JUnit.ArcheryTest.playerCanPlayerGame" />
         <item itemvalue="JUnit.ArcheryTest.thatPlayerClassExist" />
-        <item itemvalue="Application.Polling" />
-        <item itemvalue="JUnit.SalesTest.calculateEarnings" />
       </list>
     </recent_temporary>
   </component>
@@ -149,7 +151,9 @@
       <workItem from="1666022736944" duration="608000" />
       <workItem from="1666064476347" duration="9043000" />
       <workItem from="1666085053693" duration="592000" />
-      <workItem from="1666099429648" duration="371000" />
+      <workItem from="1666099429648" duration="1348000" />
+      <workItem from="1666150651183" duration="6489000" />
+      <workItem from="1666167579649" duration="1866000" />
     </task>
     <servers />
   </component>
