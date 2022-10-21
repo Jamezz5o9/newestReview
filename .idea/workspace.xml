@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b2a2d476-9c3f-413d-834a-971faf4fb7f7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/archery/ArcheryBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/archery/ArcheryBoard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/archery/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/archery/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/archery/ArcheryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/archery/ArcheryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,6 +151,9 @@
       <workItem from="1666099429648" duration="1348000" />
       <workItem from="1666150651183" duration="6489000" />
       <workItem from="1666167579649" duration="1866000" />
+      <workItem from="1666184824273" duration="660000" />
+      <workItem from="1666237340510" duration="2821000" />
+      <workItem from="1666326543472" duration="609000" />
     </task>
     <servers />
   </component>
